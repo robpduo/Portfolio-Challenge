@@ -100,6 +100,72 @@ header h1 {
     width: 60%;
     text-align: center;
 }
+
 /*About Me End*/
 
-/*
+.section-list {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+}
+
+/*My Work*/
+#my-work {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+}
+
+.mywork-title h1 {
+    width: 100%;
+    font-size: 38px;
+    text-align: right;
+}
+
+.mywork-title {
+    border-bottom: 2px solid;
+}
+
+.work-list {
+    width: 60%;
+}
+
+.previous-projects1 {
+    display: block;
+    width: 100%;
+    height: 200px;
+    border: solid;
+    background-image: url("../images/flipped-hero-image.jpg");
+    background-size: cover;
+}
+
+.work-new-line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.previous-projects2 {
+    width: 49%;
+    height: 200px;
+    border-style: solid;
+    margin-top: 10px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/expenses.jpg");
+    background-size: cover;
+}
+
+.previous-projects2 h2, .previous-projects2 h4 {
+    color: white;
+}
+
+.previous-projects3 {
+    width: 49%;
+    height: 200px;
+    border-style: solid;
+    margin-top: 10px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/banking.jpg");
+    background-size: cover;
+}
+
+.previous-projects3 h2, .previous-projects3 h4 {
+    color: white;
+}
