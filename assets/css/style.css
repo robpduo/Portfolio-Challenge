@@ -80,19 +80,26 @@ header h1 {
     margin: 50px, 0, 0, 0;
 }
 
-.about-me {
+#about-me {
     display: flex;
-    justify-content: center;
-
+    justify-content: space-evenly;
+    margin: 30px;
 }
 
-.aboutme-container h1 {
+.aboutme-title h1 {
     width: 100%;
-    border-bottom: 2px solid black;
     font-size: 38px;
+    text-align: right;
+}
+
+.aboutme-border {
+    border-bottom: 2px solid black;
 }
 
 .aboutme-text {
-    display: flex;
-    justify-content: center;
+    width: 60%;
+    text-align: center;
 }
+/*About Me End*/
+
+/*
