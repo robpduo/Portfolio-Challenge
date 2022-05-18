@@ -1,0 +1,54 @@
+:root {
+    --navy-color: #273469; 
+    --snow-color: #F7F0F0;
+    --yellow-color: #E1BC29;
+    --black-color: #000000;
+}
+
+* {
+    /*remove margins and padding for all elements on my page*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--snow-color);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--black-color);
+    text-shadow: 0 0 10 rgba(0, 0, 0, 1);
+    position: sticky;
+    flex-wrap: wrap;
+}
+
+header nav {
+    width: 70%;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+header nav ul a {
+    text-decoration: none;
+    color: var(--snow-color);
+}
+
+header nav ul a:hover {
+    text-decoration: none;
+    color: var(--yellow-color);
+}
+
+header h1 {
+    color: var(--snow-color);
+}
+
