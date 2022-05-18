@@ -1,6 +1,6 @@
 :root {
-    --navy-color: #273469; 
-    --snow-color: #F7F0F0;
+    --navy-color: #273469;
+    --snow-color: #FFFFFF;
     --yellow-color: #E1BC29;
     --black-color: #000000;
 }
@@ -14,6 +14,7 @@
 
 body {
     background-color: var(--snow-color);
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 header {
@@ -52,3 +53,46 @@ header h1 {
     color: var(--snow-color);
 }
 
+/* hero img banner */
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/profile.jpg");
+
+    height: 500px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    width: 100%;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: White;
+}
+
+.hero-text p {
+    margin: 50px, 0, 0, 0;
+}
+
+.about-me {
+    display: flex;
+    justify-content: center;
+
+}
+
+.aboutme-container h1 {
+    width: 100%;
+    border-bottom: 2px solid black;
+    font-size: 38px;
+}
+
+.aboutme-text {
+    display: flex;
+    justify-content: center;
+}
