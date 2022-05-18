@@ -83,7 +83,7 @@ header h1 {
 #about-me {
     display: flex;
     justify-content: space-evenly;
-    margin: 30px;
+    margin: 50px;
 }
 
 .aboutme-title h1 {
@@ -98,7 +98,7 @@ header h1 {
 
 .aboutme-text {
     width: 60%;
-    text-align: center;
+    text-align: left;
 }
 
 /*About Me End*/
@@ -113,13 +113,13 @@ header h1 {
 #my-work {
     display: flex;
     justify-content: space-evenly;
-    margin: 30px;
+    margin: 50px;
 }
 
 .mywork-title h1 {
     width: 100%;
     font-size: 38px;
-    text-align: right;
+    text-align: left;
 }
 
 .mywork-title {
@@ -153,7 +153,8 @@ header h1 {
     background-size: cover;
 }
 
-.previous-projects2 h2, .previous-projects2 h4 {
+.previous-projects2 h2,
+.previous-projects2 h4 {
     color: white;
 }
 
@@ -166,6 +167,54 @@ header h1 {
     background-size: cover;
 }
 
-.previous-projects3 h2, .previous-projects3 h4 {
+.previous-projects3 h2,
+.previous-projects3 h4 {
     color: white;
 }
+
+/*End My Work*/
+
+/*Contact Me*/
+.contact-info {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+
+.contact-section h1 {
+    width: 100%;
+    font-size: 38px;
+    text-align: right;
+}
+
+.contact-section-container {
+    border-bottom: 2px solid;
+}
+
+.info-text {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.number {
+    text-decoration: underline;
+    position: relative;
+    top: 40%;
+}
+
+.email {
+    text-decoration: underline;
+    position: relative;
+    top: 40%;
+}
+
+.github {
+    text-decoration: underline;
+    position: relative;
+    top: 40%;
+
+}
+/*Contact Me End*/
+
+/*Resume
