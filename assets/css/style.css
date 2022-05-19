@@ -119,7 +119,7 @@ header h1 {
 .mywork-title h1 {
     width: 100%;
     font-size: 38px;
-    text-align: left;
+    text-align: right;
 }
 
 .mywork-title {
@@ -137,20 +137,33 @@ header h1 {
     border: solid;
     background-image: url("../images/flipped-hero-image.jpg");
     background-size: cover;
+    color: black;
 }
 
 .work-new-line {
     display: flex;
     justify-content: space-between;
+
 }
 
-.previous-projects2 {
+.project-link1 {
+    width: 49%;
+    height: 200px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/expenses.jpg");
+    background-size: cover;
+    border-style: solid;
+    margin-top: 10px;
+    color: white;
+}
+
+.project-link2 {
     width: 49%;
     height: 200px;
     border-style: solid;
     margin-top: 10px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/expenses.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/banking.jpg");
     background-size: cover;
+    color: white;
 }
 
 .previous-projects2 h2,
@@ -159,8 +172,6 @@ header h1 {
 }
 
 .previous-projects3 {
-    width: 49%;
-    height: 200px;
     border-style: solid;
     margin-top: 10px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/banking.jpg");
@@ -171,6 +182,8 @@ header h1 {
 .previous-projects3 h4 {
     color: white;
 }
+
+
 
 /*End My Work*/
 
@@ -192,9 +205,9 @@ header h1 {
 }
 
 .info-text {
-    width: 60%;
+    width: 70%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .number {
@@ -219,6 +232,7 @@ header h1 {
 .anchor-style {
     text-decoration: none;
 }
+
 /*Contact Me End*/
 
 /*Resume
